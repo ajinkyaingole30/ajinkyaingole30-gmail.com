@@ -42,7 +42,10 @@ $ kubectl get svc  -n wordpress-example
 
 Now you can finish the installation of your Wordpress application using the following details :
 Database name : wordpress as defined in the DB’s yaml file
+
 User name : root
+
 Password : redhat as defined in yaml too
+
 Database host : mysql.mysql-example.svc.cluster.local
 
