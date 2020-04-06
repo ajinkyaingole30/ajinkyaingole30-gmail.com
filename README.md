@@ -1,6 +1,6 @@
 # Kubernetes
 
-# COnnecting two pods from different namespace 
+# Connecting two pods from different namespace 
 
 
 Create a basic Kubernetes Service for a HTTP server
