@@ -14,6 +14,7 @@ $ kubectl get svc
 create namespaces
 
 $ kubectl create ns mysql-example
+
 $ kubectl create ns wordpress-example
 
 create our MariaDB deployment resource
@@ -31,6 +32,7 @@ $ kubectl create -f wordpress-deployment.yml
 check if pods are runing or not
 
 $ kubectl get pod -n mysql-example
+
 $ kubectl get pod -n wordpress-example
 
 expose wordpress service
