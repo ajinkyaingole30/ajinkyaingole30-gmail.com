@@ -1,1 +1,35 @@
-# ajinkyaingole30-gmail.com
+
+
+Create a basic Kubernetes Service for a HTTP server
+
+# kubectl create -f kube-dns.yml
+
+To check service 
+
+# kubectl get svc 
+
+create namespaces
+
+# kubectl create ns mysql-example
+# kubectl create ns wordpress-example
+
+create our MariaDB deployment resource
+
+# kubectl create -f mariadb-deployment.yml
+
+To allow any other container to speak to our database pod we need to expose it to a service resource
+
+# kubectl create -f mysql-service.yml
+
+create our Wordpress container and configure it to talk to our MariaDB pod
+
+# kubectl create -f wordpress-deployment.yml
+
+check if pods are runing or not
+
+# kubectl get pod -n mysql-example
+# kubectl get pod -n wordpress-example
+
+expose wordpress service
+
+kubectl create -f wordpress
