@@ -1,7 +1,7 @@
 # Kubernetes
 
 # Connecting two pods from different namespace 
-lets say wordpress and mysql
+lets consider the two tier apllication where wordpress works as front and mysql as backend
 
 $ git glone https://github.com/ajinkyaingole30/kube-pod-connect-of-diff-namespace.git
 
