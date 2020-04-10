@@ -19,7 +19,7 @@ $ kubectl create ns mysql-example
 
 $ kubectl create ns wordpress-example
 
-create our MariaDB deployment resource
+create our Mysql deployment resource
 
 $ kubectl create -f mysql-deployment.yml
 
@@ -27,7 +27,7 @@ To allow any other container to speak to our database pod we need to expose it t
 
 $ kubectl create -f mysql-service.yml
 
-create our Wordpress container and configure it to talk to our MariaDB pod
+create our Wordpress container and configure it to talk to our Mysql pod
 
 $ kubectl create -f wordpress-deployment.yml
 
