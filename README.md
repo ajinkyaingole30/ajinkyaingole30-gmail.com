@@ -46,7 +46,7 @@ $ kubectl get svc  -n wordpress-example
 
 Now you can finish the installation of your Wordpress application using the following details :
 
-Database name : wordpress as defined in the DB’s yml file
+Database name : wordpress as defined in the mysqls yml file
 
 User name : root
 
