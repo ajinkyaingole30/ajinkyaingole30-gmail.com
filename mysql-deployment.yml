@@ -23,7 +23,7 @@ spec:
         name: mysql
         env:
         - name: MYSQL_ROOT_PASSWORD
-          value: aStr0ngPassW0rd
+          value: redhat
         - name: MYSQL_DATABASE
           value: wordpress
         volumeMounts:
