@@ -1,7 +1,9 @@
 # Kubernetes
 
 # Connecting two pods from different namespace 
+lets say wordpress and mysql
 
+$ git glone https://github.com/ajinkyaingole30/kube-pod-connect-of-diff-namespace.git
 
 Create a basic Kubernetes Service for a HTTP server
 
